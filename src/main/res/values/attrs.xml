@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="enablePullUp" format="boolean" />
+    <attr name="enablePullDown" format="boolean" />
+    <attr name="pullBackground" format="color|reference" />
+
+    <declare-styleable name="SmartRefreshLayout">
+        <attr name="enablePullUp" />
+        <attr name="enablePullDown" />
+        <attr name="pullBackground" />
+    </declare-styleable>
+
+    <!-- CircleLoadingView -->
+    <declare-styleable name="CircleLoadingView">
+        <attr name="round_one_time" format="integer" />
+        <attr name="round_outside_color" format="color" />
+        <attr name="round_inside_color" format="color" />
+        <attr name="round_inside_angle" format="float" />
+        <attr name="round_outside_angle" format="float" />
+        <attr name="round_start_angle" format="float" />
+    </declare-styleable>
+
+    <!-- 扫一扫 -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="inner_width" format="dimension" />
+        <attr name="inner_height" format="dimension" />
+        <attr name="inner_margintop" format="dimension" />
+        <attr name="inner_corner_color" format="color" />
+        <attr name="inner_corner_length" format="dimension" />
+        <attr name="inner_corner_width" format="dimension" />
+        <attr name="inner_scan_bitmap" format="reference" />
+        <attr name="inner_scan_speed" format="integer" />
+        <attr name="inner_scan_iscircle" format="boolean" />
+    </declare-styleable>
+
+    <!-- RoundImageView -->
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+            <enum name="multi" value="3" />
+        </attr>
+        <attr name="angleCount" format="integer" />
+        <attr name="currentAngle" format="integer" />
+    </declare-styleable>
+
+    <!-- switch button -->
+    <declare-styleable name="SwitchButton">
+        <attr name="unselectedBg" format="color" />
+        <attr name="selectedBg" format="color" />
+        <attr name="circle2Bgmargin" format="dimension" />
+        <attr name="switchState" format="enum">
+            <enum name="open" value="2" />
+            <enum name="close" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- lock view -->
+    <declare-styleable name="LockView">
+        <attr name="normalColor" format="color" />
+        <attr name="selectColor" format="color" />
+        <attr name="correctColor" format="color" />
+        <attr name="wrongColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>
